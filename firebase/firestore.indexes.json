@@ -1,0 +1,266 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "Airlines_Dataset",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "OriginAirportID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "DestinationAirportID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "DepartureDate",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "ArrivalDate",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "FlightCapacity",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "FlightBooking",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "accountID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "FlightCancel",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Airlines_Dataset",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "OriginAirportID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "DestinationAirportID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "DepartureDate",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "ArrivalDate",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "FirstCapacity",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Services_Dataset",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "ServiceCategeoy",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "LocTerminal3",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Services_Dataset",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "ServiceCategeoy",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "LocTerminal4",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Services_Dataset",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "ServiceCategeoy",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "LocTerminal5",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Services_Dataset",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "ServiceCategeoy",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "LocTerminal2",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Airplains_Dataset",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "FlightID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Status",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "typeSeat",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Seat",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Airlines_Dataset",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "OriginAirportID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "DestinationAirportID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "DepartureDate",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "FlightCapacity",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "FlightBooking",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "accountID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "FlightCancel",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "DateBooked",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Airlines_Dataset",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "OriginAirportID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "DestinationAirportID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "DepartureDate",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "ecoCapacity",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Airlines_Dataset",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "OriginAirportID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "DestinationAirportID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "DepartureDate",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "businessCapacity",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Airlines_Dataset",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "OriginAirportID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "DestinationAirportID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "DepartureDate",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "FirstCapacity",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": [
+    {
+      "collectionGroup": "fcm_tokens",
+      "fieldPath": "fcm_token",
+      "indexes": [
+        {
+          "order": "ASCENDING",
+          "queryScope": "COLLECTION_GROUP"
+        }
+      ]
+    }
+  ]
+}

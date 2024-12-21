@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "96685359434",
+    "firebase_url": "https://afaq-xyd5jj-default-rtdb.firebaseio.com",
+    "project_id": "afaq-xyd5jj",
+    "storage_bucket": "afaq-xyd5jj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96685359434:android:f126a39eef8b64ce4741b3",
+        "android_client_info": {
+          "package_name": "com.mycompany.afaq"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFuhDykb9rd9YAvg9dJu6lHYY0-Q3mXPM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

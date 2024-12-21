@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyDRgLCdxSy6wB7VllUb7052WvwWiMgFZ5M</string>
+	<key>GCM_SENDER_ID</key>
+	<string>96685359434</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.mycompany.afaq</string>
+	<key>PROJECT_ID</key>
+	<string>afaq-xyd5jj</string>
+	<key>STORAGE_BUCKET</key>
+	<string>afaq-xyd5jj.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:96685359434:ios:ecb385c1919caded4741b3</string>
+	<key>DATABASE_URL</key>
+	<string>https://afaq-xyd5jj-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
